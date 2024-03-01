@@ -2,7 +2,7 @@ NAME = libftprintf.a
 CC = gcc
 CFLAGS = -Wall -Werror -Wextra
 SRCS = ft_flags.c ft_helpers.c ft_print_char.c ft_print_int.c ft_print_ptr.c ft_print_string.c ft_print_unsigned.c ft_printf.c ft_print_hex.c ft_safe_write.c ft_safe_putstr.c 
-OBJ = $(SRCS:.c=.o)
+OBJ = $(SRCS:.c=.o) 
 RM = rm -f
 AR = ar -rcs
 LIBFT_PATH = ./libft
